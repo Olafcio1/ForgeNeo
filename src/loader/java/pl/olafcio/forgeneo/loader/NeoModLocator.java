@@ -153,6 +153,12 @@ public class NeoModLocator extends AbstractJarFileModLocator {
 
                             zos.putNextEntry(entry);
                             zos.write(writer.toByteArray());
+                        } else {
+                            zos.putNextEntry(entry);
+
+                            try (var stream = zip.getInputStream(entry)) {
+                                stream.transferTo(zos);
+                            }
                         }
                     }
                 }
