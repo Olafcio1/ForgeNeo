@@ -109,7 +109,7 @@ public class NeoModLocator extends AbstractJarFileModLocator {
         for (var path : paths) {
             var outputPath = directory.resolve(path.getFileName());
 
-            outputPaths[i++] = path;
+            outputPaths[i++] = outputPath;
 
             try {
                 var fos = new FileOutputStream(outputPath.toFile());
