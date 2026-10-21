@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group":"pl.olafcio",
+        "artifact":"forgeneo_service"
+      },
+      "version":{
+        "range":"[1.0,)",
+        "artifactVersion":"1.0"
+      },
+      "path":"loader.jar",
+      "isObfuscated":false
+    }
+  ]
+}
