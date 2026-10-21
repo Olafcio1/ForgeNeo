@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 @Mod(ForgeNeo.MODID)
 public class ForgeNeo {
 
-    public static final String MODID = "forgeneo";
+    public static final String MODID = "neoforge";
     private static final Logger LOGGER = LoggerFactory.getLogger(ForgeNeo.class);
 
     public ForgeNeo() {
